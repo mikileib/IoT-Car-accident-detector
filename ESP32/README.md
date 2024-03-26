@@ -1,9 +1,9 @@
-## ESP32 Setup Guide
+# ESP32 Setup Guide
 
 ### Overview:
 This project implements a data collection and transmission system for a car using an ESP32 microcontroller. The system collects sensor data including accelerometer readings, temperature, and GPS coordinates, and publishes this data to the AWS IoT platform via MQTT (Message Queuing Telemetry Transport) protocol over a secure WiFi connection.
 
-### Hardware Requirements:
+## Hardware Requirements:
 - ESP32 microcontroller board
 - MPU6050 accelerometer and gyroscope sensor module
 - GPS module (compatible with TinyGPS++)
@@ -13,7 +13,7 @@ This project implements a data collection and transmission system for a car usin
   <img src="https://i.postimg.cc/FFSXLf1Y/Untitled-1.png" alt="Image Description">
 </p>
 
-### Software Dependencies:
+## Software Dependencies:
 - Arduino IDE
 - Libraries:
   - WiFiClientSecure.h
@@ -26,7 +26,7 @@ This project implements a data collection and transmission system for a car usin
   - Wire.h
   - SoftwareSerial.h
 
-### Setup Instructions:
+## Setup Instructions:
 
 1. Ensure all hardware components are properly connected to the ESP32 board as per the wiring configuration specified in the code.
 2. Open the code in Arduino IDE.
@@ -61,7 +61,7 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(
 6. Save the `secrets.h` file.
 7. Upload the main code file to your ESP32 board.
 
-### Operation:
+## Operation:
 1. Upon startup, the system initializes connections to WiFi and AWS IoT.
 2. Sensor data including accelerometer readings, temperature, GPS coordinates, and timestamp are collected.
 3. Data is packaged into a JSON format and published to the specified AWS IoT topic.
@@ -69,7 +69,7 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(
 5. GPS data is continuously processed to ensure accurate location information.
 6. LED status indication provides feedback on the system's operational status.
 
-### Notes:
+## Notes:
 - Ensure the accuracy of sensor readings and GPS data by properly calibrating and configuring the hardware components.
 - Monitor serial output for debugging and status information.
 - Adjust parameters such as update intervals and MQTT topics according to your application requirements.
