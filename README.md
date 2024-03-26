@@ -18,7 +18,7 @@
 
 Our IoT Car Accident Detection System is a cutting-edge project designed to enhance road safety and emergency response mechanisms. Leveraging the power of ESP32 microcontrollers and AWS (Amazon Web Services) cloud services, this system aims to provide real-time monitoring and rapid response capabilities in the event of a car accident.
 
-**Key Features:**
+### Key Features:
 
 **ESP32 Microcontroller Integration:** The project utilizes ESP32 microcontrollers for data collection, processing, and communication. With its powerful capabilities and built-in Wi-Fi and Bluetooth connectivity, ESP32 serves as the primary hardware platform for sensor integration and data transmission.
 
@@ -31,13 +31,13 @@ Our IoT Car Accident Detection System is a cutting-edge project designed to enha
 **Data Logging and Historical Analysis:** All sensor data, including pre- and post-accident information, is logged and stored in AWS databases for historical analysis and forensic purposes. This data can be accessed and visualized through custom dashboards and analytics tools, providing valuable insights for accident reconstruction and safety improvements.
 
 
-## Getting Started
+# Getting Started
 
 Welcome to the IoT Car Accident Detection System project! This guide will help you get started with setting up and configuring the system.
 
-### Prerequisites
+## Prerequisites
 
-**Hardware Components:**
+### Hardware Components:
 
 * ESP32 microcontroller board
 * MPU6050 accelerometer and gyroscope sensor
@@ -45,49 +45,49 @@ Welcome to the IoT Car Accident Detection System project! This guide will help y
 * Power source (battery or USB)
 * Necessary connecting wires and breadboard (if required)
 
-**Development Environment:**
+### Development Environment:
 
 * Arduino IDE or PlatformIO with ESP-IDF for programming the ESP32 microcontroller.
 * Required libraries and dependencies for interfacing with the MPU6050 sensor, GY-GPS6MV2 module, and AWS services.
 
-**AWS Account:**
+### AWS Account:
 
 * An AWS account to set up AWS IoT Core, Lambda functions, Timestream databases and Simple Notification Service.
 * Basic familiarity with AWS services and console navigation.
 
 
-### Installation
+## Installation
 
 
-**AWS IoT Core Setup:**
+### AWS IoT Core Setup:
 
 * Set up an AWS IoT Core instance to receive MQTT messages from the ESP32 microcontroller.
 * Create a rule in AWS IoT Core to trigger a Lambda function upon receiving messages from the ESP32.
 
-**AWS Lambda Function Setup:**
+### AWS Lambda Function Setup:
 
 * Create a new Lambda function in the AWS Lambda console.
 * Copy and paste the provided Python code into the Lambda function editor.
 * Update the code with the appropriate AWS service client configurations and resource ARNs.
 * Ensure the Lambda function has permissions to write data to Amazon Timestream and publish messages to Amazon SNS.
 
-**Amazon Timestream Configuration:**
+### Amazon Timestream Configuration:
 
 * Create a new database and table in Amazon Timestream to store the sensor data received from the ESP32 microcontroller.
 * Define the schema for the Timestream table to match the data structure expected from the Lambda function.
 
-**Amazon SNS Setup:**
+### Amazon SNS Setup:
 
 * Create an Amazon SNS topic to handle notifications for car accidents and fires detected by the Lambda function.
 * Configure subscriptions to the SNS topic to send notifications to specified endpoints, such as email addresses or mobile devices.
 
-**Testing and Validation:**
+### Testing and Validation:
 
 * Test the integration by simulating data from the ESP32 microcontroller and verifying that messages are successfully received by AWS IoT Core.
 * Monitor the execution of the Lambda function and verify that data is being stored in Amazon Timestream.
 * Verify that notifications are being sent out correctly via Amazon SNS when car accidents or fires are detected.
 
-**Grafana Integration:**
+### Grafana Integration:
 
 * Set up a connection between Grafana and Amazon Timestream to visualize and analyze the stored sensor data.
 * Configure Grafana dashboards to display relevant metrics and trends from the Timestream database.
