@@ -1,8 +1,5 @@
-<br/>
-<p align="center">
-  <a href="https://github.com/mikileib/IoT-Car-accident-detector">
-    <img src="https://i.postimg.cc/t4zBdHxx/accident.png" alt="Logo" width="80" height="80">
-  </a>
+
+<p align="center"><img src="https://i.postimg.cc/t4zBdHxx/accident.png" alt="project-image"></p>
 
   <h3 align="center">IoT Car accident detector</h3>
 
