@@ -1,4 +1,4 @@
-## README: Car Data Collection and Transmission System
+## ESP32 Setup Guide
 
 ### Overview:
 This project implements a data collection and transmission system for a car using an ESP32 microcontroller. The system collects sensor data including accelerometer readings, temperature, and GPS coordinates, and publishes this data to the AWS IoT platform via MQTT (Message Queuing Telemetry Transport) protocol over a secure WiFi connection.
