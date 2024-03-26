@@ -21,14 +21,10 @@
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
-* [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Contributing](#contributing)
-* [License](#license)
 * [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
@@ -107,10 +103,6 @@ Welcome to the IoT Car Accident Detection System project! This guide will help y
 
 * Set up a connection between Grafana and Amazon Timestream to visualize and analyze the stored sensor data.
 * Configure Grafana dashboards to display relevant metrics and trends from the Timestream database.
-
-## License
-
-Distributed under the MIT License. See [LICENSE](https://github.com/mikileib/IoT-Car-accident-detector/blob/main/LICENSE.md) for more information.
 
 ## Authors
 
