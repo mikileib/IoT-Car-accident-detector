@@ -1,5 +1,7 @@
 # AWS Setup Guide
 
+### Overview:
+
 This guide provides detailed instructions for setting up the AWS (Amazon Web Services) components required for the IoT Car Accident Detection System project.
 
 ## AWS Architecture
