@@ -1,18 +1,9 @@
-
-<p align="center"><img src="https://i.postimg.cc/t4zBdHxx/accident.png" alt="project-image"></p>
-
-  <h3 align="center">IoT Car accident detector</h3>
+<h1 align="center" id="title">IoT Car accident detector</h1>
 
   <p align="center">
     Michael Leib and Yuval Yacov Said IoT Final Project
-    <br/>
-    <br/>
-    <a href="https://github.com/mikileib/IoT-Car-accident-detector"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-  </p>
-</p>
 
+<p align="center"><img src="https://i.postimg.cc/t4zBdHxx/accident.png" alt="project-image"></p>
 
 
 ## Table Of Contents
@@ -21,7 +12,7 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Authors](#authors)
+
 
 ## About The Project
 
@@ -100,7 +91,3 @@ Welcome to the IoT Car Accident Detection System project! This guide will help y
 
 * Set up a connection between Grafana and Amazon Timestream to visualize and analyze the stored sensor data.
 * Configure Grafana dashboards to display relevant metrics and trends from the Timestream database.
-
-## Authors
-
-* **Michael Leib** - *Electrical Engineering  Student* - [Michael Leib](https://github.com/mikileib) - **
