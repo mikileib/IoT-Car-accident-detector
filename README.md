@@ -46,11 +46,6 @@ Our IoT Car Accident Detection System is a cutting-edge project designed to enha
 
 **Data Logging and Historical Analysis:** All sensor data, including pre- and post-accident information, is logged and stored in AWS databases for historical analysis and forensic purposes. This data can be accessed and visualized through custom dashboards and analytics tools, providing valuable insights for accident reconstruction and safety improvements.
 
-## Built With
-
-
-
-* []()
 
 ## Getting Started
 
@@ -113,18 +108,6 @@ Welcome to the IoT Car Accident Detection System project! This guide will help y
 * Set up a connection between Grafana and Amazon Timestream to visualize and analyze the stored sensor data.
 * Configure Grafana dashboards to display relevant metrics and trends from the Timestream database.
 
-## Contributing
-
-
-
-### Creating A Pull Request
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## License
 
 Distributed under the MIT License. See [LICENSE](https://github.com/mikileib/IoT-Car-accident-detector/blob/main/LICENSE.md) for more information.
@@ -132,9 +115,3 @@ Distributed under the MIT License. See [LICENSE](https://github.com/mikileib/IoT
 ## Authors
 
 * **Michael Leib** - *Electrical Engineering  Student* - [Michael Leib](https://github.com/mikileib) - **
-
-## Acknowledgements
-
-* []()
-* []()
-* []()
