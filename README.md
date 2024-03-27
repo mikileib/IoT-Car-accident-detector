@@ -22,6 +22,7 @@ Our IoT Car Accident Detection System is a cutting-edge project designed to enha
 
 **Data Logging and Historical Analysis:** All sensor data, including pre- and post-accident information, is logged and stored in AWS databases for historical analysis and forensic purposes. This data can be accessed and visualized through custom dashboards and analytics tools, providing valuable insights for accident reconstruction and safety improvements.
 
+![System Overview](https://i.postimg.cc/wMNzJt1g/Subject-4.png)
 
 # Getting Started
 
