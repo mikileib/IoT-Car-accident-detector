@@ -6,14 +6,6 @@
 <p align="center"><img src="https://i.postimg.cc/t4zBdHxx/accident.png" alt="project-image"></p>
 
 
-## Table Of Contents
-
-* [About the Project](#about-the-project)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-
-
 ## About The Project
 
 Our IoT Car Accident Detection System is a cutting-edge project designed to enhance road safety and emergency response mechanisms. Leveraging the power of ESP32 microcontrollers and AWS (Amazon Web Services) cloud services, this system aims to provide real-time monitoring and rapid response capabilities in the event of a car accident.
